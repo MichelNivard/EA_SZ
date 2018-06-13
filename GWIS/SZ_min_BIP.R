@@ -1,8 +1,8 @@
 # read in Bipolar results:
-pgc.cross.BIP11.2013.05 <- read.csv("~/Desktop/Phillip GWIS/pgc BIP/pgc.cross.BIP11.2013-05.txt", sep="")
+pgc.cross.BIP11.2013.05 <- read.csv("pgc.cross.BIP11.2013-05.txt", sep="")
 
 # read in SCZ results:
-daner_PGC_SCZ52_0513a.resultfiles_PGC_SCZ52_0513 <- read.delim("~/Desktop/Phillip GWIS/daner_PGC_SCZ52_0513a.resultfiles_PGC_SCZ52_0513.sh2_nogras", stringsAsFactors=FALSE)
+daner_PGC_SCZ52_0513a.resultfiles_PGC_SCZ52_0513 <- read.delim("daner_PGC_SCZ52_0513a.resultfiles_PGC_SCZ52_0513.sh2_nogras", stringsAsFactors=FALSE)
 
 
 # create local objects with simple names, remove SNPs not in the bip file from the scz file:
